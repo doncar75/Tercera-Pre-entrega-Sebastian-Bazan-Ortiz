@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Smooch+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: rgba(121, 83, 179, 0.464)
+}
+
+.container-fluid{
+    background-color: rgb(43, 87, 72);
+}
+
+.nav-link{
+    color: white;
+}
+
+.btn{
+    color: white;
+}
+
+.clearfix {
+    padding: 1rem;
+    margin: 1rem;
+    border: rgb(43, 87, 72);
+    border-style: groove;
+    border-width: 0.5rem;
+    
+}
+
+.parrafo-inicio {
+    font-size: 1.1rem;
+}
+
+.capitol-letter {
+    float: left;
+    color: rgb(43, 87, 72);
+    background: #d4e9ff;
+    border: 1px solid #4a6e92;
+    padding: 3px 5px 1px 5px;
+    display: block;
+    margin-right: 6px;
+    font-family: times;
+    margin-top: 5px;
+    font-size: 80px;
+    line-height: 60px;
+}
+
+.container{
+    background-color: rgb(43, 87, 72);
+}
+
+.parrafo-nos{
+    padding: 1rem;
+    margin: 1rem;
+    border: rgb(43, 87, 72);
+    border-style: groove;
+    border-width: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 10%;
+}
+
+.nos1{
+    padding-top: 3rem;
+    margin: 3rem;
+    transition: .5s;
+    object-fit: cover;
+}
+
+.nos2{
+    padding-top: 3.5rem;
+    margin: 3.5rem;
+    transition: .5s;
+    object-fit: cover;
+}
+
+.nos3{
+    padding-top: 2.5rem;
+    margin: 2.5rem;
+    transition: .5s;
+    object-fit: cover;
+}
+
+.nos4{
+    padding-top: .75rem;
+    margin: .75rem;
+    transition: .5s;
+    object-fit: cover;
+}
+
+.fotonos{
+    box-shadow: 9px 9px 12px black;
+}
+
+.fotonos:hover{
+    transform: scale(1.4);
+}
+
+.depo{
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: space-around;
+    align-content: space-between;
+    
+}
+
+.content {
+    max-width: 100%;
+
+}
+
+.logos {
+    text-align: center;
+    font-size: 3rem;
+    padding-left: 5rem;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 1.25rem 0 rgba(88, 54, 138, 0.464);
+}
+
+.contact-wrapper > *{
+    padding: 2rem;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+.contact-form form p {
+    margin: 0;
+    padding: 1rem;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7rem;
+    border: none;
+}
+
+.contact-form form button {
+    background: rgb(165, 148, 243);
+
+}
+
+.info-contacto {
+    background-color: rgb(44, 87, 72);
+    color: white;
+    font-size: 1.4rem;
+}
+
+.info-contacto h4,
+.info-contacto ul,
+.info-contacto p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.info-contacto ul{
+    list-style: none;
+    padding: 0;
+}
+
+.info-contacto ul li {
+    padding: .3rem;
+}
+
+.parrafoadoptar{
+    padding: 1rem;
+    margin: 1rem;
+    border: rgb(43, 87, 72);
+    border-style: groove;
+    border-width: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.principal{
+	margin-top:50px;
+}
+
+.card-header-first{
+	margin-top:-40px;
+    height: 120px;
+	background: linear-gradient(-90deg, #7601bf, #57f280); 
+	box-shadow:1px 7px 15px #a2a2a2;
+    
+}
+
+.card-header-second{
+	box-shadow:1px 7px 15px #a2a2a2;
+    margin:-18px -18px 0px -18px;
+    height: 120px;
+	background: linear-gradient(-90deg, #8E2DE2, #4A00E0); 
+}
+
+.card-header-third{
+    margin-top:-20px;
+    height: 120px;
+	box-shadow:1px 5px 15px #a2a2a2;
+    background: linear-gradient(-90deg, #0f881d, #912bd1); 
+}
+
+.card-section-third span i{
+	padding:17px;
+	margin:0px 10px;
+	color:#fff;
+	height:50px;
+	width:50px;
+	box-shadow:1px 6px 24px #d2d2d2;
+	background: linear-gradient(-90deg, #11998e, #38ef7d); 
+}
+
+.card-header-third span i:hover,.card-section-third span i:hover{
+	box-shadow:1px 1px 15px #000;
+}
+
+.card-section{
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,.16), 0 8px 20px 0 rgba(0,0,0,.12);
+}
+
+.card-section:hover{
+	box-shadow:1px 1px 20px #d2d2d2;
+}
+
+.parrafocolaborar{
+    padding: 1rem;
+    margin: 1rem;
+    border: rgb(43, 87, 72);
+    border-style: groove;
+    border-width: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.titulo-nos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-shadow: 3px 3px 4px green;
+}
+
+.titulo-colaborar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-shadow: 3px 3px 4px green;
+}
+
+.titulo-adoptar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-shadow: 3px 3px 4px green;
+}
+
+.col-colab{
+    padding: 1rem;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.col-colab:hover{
+    box-shadow:1px 1px 20px #d2d2d2;
+    transform: scale(1.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
+
+@media(max-width: 660px){
+    .fotonos{
+        width: 100%;
+        justify-content: center;
+
+    }
+
+}
+
+@media(max-width: 360px){
+    .logos{
+        font-size: 2rem;
+        padding-left: .5rem;
+    }
+    .info-contacto{
+        font-size: .75rem;
+    }
+}
+
