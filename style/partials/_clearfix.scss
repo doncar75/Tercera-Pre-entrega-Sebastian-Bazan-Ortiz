@@ -1,0 +1,25 @@
+.clearfix {
+    padding: 1rem;
+    margin: 1rem;
+    border: rgb(43, 87, 72);
+    border-style: groove;
+    border-width: 0.5rem;
+    
+    .parrafo-inicio {
+        font-size: 1.1rem;
+
+        .capitol-letter {
+            float: left;
+            color: rgb(43, 87, 72);
+            background: #d4e9ff;
+            border: 1px solid #4a6e92;
+            padding: 3px 5px 1px 5px;
+            display: block;
+            margin-right: 6px;
+            font-family: times;
+            margin-top: 5px;
+            font-size: 80px;
+            line-height: 60px;
+        }
+    }
+}

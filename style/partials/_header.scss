@@ -1,0 +1,30 @@
+.header{
+    .container-fluid{
+        background-color: $secondarycolor;
+        
+        .navbar-brand {
+            .img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .navbar-toggler {
+            .span.navbar-toggler-icon {
+                .btn{
+                    color: white;
+                }
+            }
+        }     
+        .collapse.navbar-collapse {
+            ul.navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        .nav-link{
+                            color: white;
+                        }
+                    }                        
+                }
+            }
+        }
+    }
+}

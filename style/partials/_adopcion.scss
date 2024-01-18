@@ -1,0 +1,63 @@
+.titulo-adoptar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-shadow: 3px 3px 4px green;
+}
+.parrafoadoptar{
+    padding: 1rem;
+    margin: 1rem;
+    border: rgb(43, 87, 72);
+    border-style: groove;
+    border-width: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.principal{
+	margin-top:50px;
+
+    .card-section{
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,.16), 0 8px 20px 0 rgba(0,0,0,.12);
+
+        .card-header-first{
+            margin-top:-40px;
+            height: 120px;
+            background: linear-gradient(-90deg, #7601bf, #57f280); 
+            box-shadow:1px 7px 15px #a2a2a2;
+            
+        }
+        
+        .card-header-second{
+            box-shadow:1px 7px 15px #a2a2a2;
+            margin:-18px -18px 0px -18px;
+            height: 120px;
+            background: linear-gradient(-90deg, #8E2DE2, #4A00E0); 
+        }
+        
+        .card-header-third{
+            margin-top:-20px;
+            height: 120px;
+            box-shadow:1px 5px 15px #a2a2a2;
+            background: linear-gradient(-90deg, #0f881d, #912bd1); 
+
+            .card-section-third span i{
+                padding:17px;
+                margin:0px 10px;
+                color:#fff;
+                height:50px;
+                width:50px;
+                box-shadow:1px 6px 24px #d2d2d2;
+                background: linear-gradient(-90deg, #11998e, #38ef7d); 
+            }
+            
+            .card-header-third span i:hover,.card-section-third span i:hover{
+                box-shadow:1px 1px 15px #000;
+            }
+        }
+    }
+    .card-section:hover{
+        box-shadow:1px 1px 20px #d2d2d2;
+    }
+
+
+}

@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Smooch+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Quicksand, sans-serif;
+}
+
+.body {
+  background-color: rgba(121, 83, 179, 0.464);
+}
+
+.header .container-fluid {
+  background-color: rgb(43, 87, 72);
+}
+.header .container-fluid .navbar-brand .img {
+  max-width: 100%;
+  height: auto;
+}
+.header .container-fluid .navbar-toggler .span.navbar-toggler-icon .btn {
+  color: white;
+}
+.header .container-fluid .collapse.navbar-collapse ul.navbar-nav .nav-item .nav-link .nav-link {
+  color: white;
+}
+
+.container {
+  background-color: rgb(43, 87, 72);
+}
+
+.clearfix {
+  padding: 1rem;
+  margin: 1rem;
+  border: rgb(43, 87, 72);
+  border-style: groove;
+  border-width: 0.5rem;
+}
+.clearfix .parrafo-inicio {
+  font-size: 1.1rem;
+}
+.clearfix .parrafo-inicio .capitol-letter {
+  float: left;
+  color: rgb(43, 87, 72);
+  background: #d4e9ff;
+  border: 1px solid #4a6e92;
+  padding: 3px 5px 1px 5px;
+  display: block;
+  margin-right: 6px;
+  font-family: times;
+  margin-top: 5px;
+  font-size: 80px;
+  line-height: 60px;
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 63px;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 300ms ease;
+}
+.btn-wsp .btn-wsp:hover {
+  background: #20ba5a;
+}
+
+.content {
+  max-width: 100%;
+}
+.content .logos {
+  text-align: center;
+  font-size: 3rem;
+  padding-left: 5rem;
+}
+.content .logos .contact-wrapper {
+  box-shadow: 0 0 1.25rem 0 rgba(88, 54, 138, 0.464);
+}
+.content .logos .contact-wrapper .contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content .logos .contact-wrapper .contact-form form .contact-form form .block {
+  grid-column: 1/3;
+}
+.content .logos .contact-wrapper .contact-form form .contact-form form p {
+  margin: 0;
+  padding: 1rem;
+}
+.content .logos .contact-wrapper .contact-form form .contact-form form button,
+.content .logos .contact-wrapper .contact-form form .contact-form form input,
+.content .logos .contact-wrapper .contact-form form .contact-form form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+}
+.content .logos .contact-wrapper .contact-form form .contact-form form button {
+  background: rgb(165, 148, 243);
+}
+.content .logos .contact-wrapper .info-contacto {
+  background-color: rgb(44, 87, 72);
+  color: white;
+  font-size: 1.4rem;
+}
+.content .logos .contact-wrapper .info-contacto h4,
+.content .logos .contact-wrapper .info-contacto ul,
+.content .logos .contact-wrapper .info-contacto p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.content .logos .contact-wrapper .info-contacto ul {
+  list-style: none;
+  padding: 0;
+}
+.content .logos .contact-wrapper .info-contacto ul li {
+  padding: 0.3rem;
+}
+.content .logos .contact-wrapper > * {
+  padding: 2rem;
+}
+
+.titulo-nos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-shadow: 3px 3px 4px green;
+}
+
+.animate__animated.animate__rollIn {
+  --animate-duration: 2s;
+}
+
+.parrafo-nos {
+  padding: 1rem;
+  margin: 1rem;
+  border: rgb(43, 87, 72);
+  border-style: groove;
+  border-width: 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 10%;
+}
+
+.g-col-6 .nos1 {
+  padding-top: 3rem;
+  margin: 3rem;
+  transition: 0.5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.g-col-6 .nos2 {
+  padding-top: 3.5rem;
+  margin: 3.5rem;
+  transition: 0.5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.g-col-6 .nos3 {
+  padding-top: 2.5rem;
+  margin: 2.5rem;
+  transition: 0.5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.g-col-6 .nos3 {
+  padding-top: 2.5rem;
+  margin: 2.5rem;
+  transition: 0.5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.g-col-6 .fotonos {
+  box-shadow: 9px 9px 12px black;
+}
+.g-col-6 .fotonos:hover {
+  transform: scale(1.4);
+}
+
+.titulo-adoptar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-shadow: 3px 3px 4px green;
+}
+
+.parrafoadoptar {
+  padding: 1rem;
+  margin: 1rem;
+  border: rgb(43, 87, 72);
+  border-style: groove;
+  border-width: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.principal {
+  margin-top: 50px;
+}
+.principal .card-section {
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.16), 0 8px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.principal .card-section .card-header-first {
+  margin-top: -40px;
+  height: 120px;
+  background: linear-gradient(-90deg, #7601bf, #57f280);
+  box-shadow: 1px 7px 15px #a2a2a2;
+}
+.principal .card-section .card-header-second {
+  box-shadow: 1px 7px 15px #a2a2a2;
+  margin: -18px -18px 0px -18px;
+  height: 120px;
+  background: linear-gradient(-90deg, #8E2DE2, #4A00E0);
+}
+.principal .card-section .card-header-third {
+  margin-top: -20px;
+  height: 120px;
+  box-shadow: 1px 5px 15px #a2a2a2;
+  background: linear-gradient(-90deg, #0f881d, #912bd1);
+}
+.principal .card-section .card-header-third .card-section-third span i {
+  padding: 17px;
+  margin: 0px 10px;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  box-shadow: 1px 6px 24px #d2d2d2;
+  background: linear-gradient(-90deg, #11998e, #38ef7d);
+}
+.principal .card-section .card-header-third .card-header-third span i:hover, .principal .card-section .card-header-third .card-section-third span i:hover {
+  box-shadow: 1px 1px 15px #000;
+}
+.principal .card-section:hover {
+  box-shadow: 1px 1px 20px #d2d2d2;
+}
+
+@media (min-width: 700px) {
+  body {
+    padding: 0 4em;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+    padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left;
+  }
+}
+@media (max-width: 660px) {
+  .fotonos {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 360px) {
+  .logos {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+  }
+  .info-contacto {
+    font-size: 0.75rem;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .btn-wsp {
+    width: 63px;
+    height: 63px;
+    line-height: 66px;
+  }
+}/*# sourceMappingURL=estilo.css.map */

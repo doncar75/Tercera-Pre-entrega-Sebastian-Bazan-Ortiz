@@ -1,0 +1,13 @@
+.header nav.navbar.navbar-expand-lg.bg-body-tertiary .container-fluid {
+  background-color: rgb(43, 87, 72);
+}
+.header nav.navbar.navbar-expand-lg.bg-body-tertiary .container-fluid .navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+.header nav.navbar.navbar-expand-lg.bg-body-tertiary .container-fluid .navbar-toggler span.navbar-toggler-icon .btn {
+  color: white;
+}
+.header nav.navbar.navbar-expand-lg.bg-body-tertiary .container-fluid .collapse.navbar-collapse ul.navbar-nav.me-auto.mb-2.mb-lg-0 .nav-item .nav-link .nav-link {
+  color: white;
+}/*# sourceMappingURL=header.css.map */
