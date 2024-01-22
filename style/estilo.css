@@ -315,4 +315,10 @@
     height: 63px;
     line-height: 66px;
   }
+}
+@media (max-width: 770px) {
+  .castrar {
+    width: 270px;
+    height: 203px;
+  }
 }/*# sourceMappingURL=estilo.css.map */
