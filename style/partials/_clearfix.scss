@@ -5,6 +5,14 @@
     border-style: groove;
     border-width: 0.5rem;
     
+    .titulo-inicio{
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-shadow: 3px 3px 4px green;
+    animation-duration: 3s;
+    }
+    
     .parrafo-inicio {
         font-size: 1.1rem;
 
@@ -22,4 +30,17 @@
             line-height: 60px;
         }
     }
+    .titulo-castrar{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        text-decoration: underline;
+        text-shadow: 3px 3px 4px green;    
+    }
+
+    .titulo-maltrato{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            text-decoration: underline;
+            text-shadow: 3px 3px 4px green;
+        }
 }

@@ -35,6 +35,13 @@
   border-style: groove;
   border-width: 0.5rem;
 }
+.clearfix .titulo-inicio {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-shadow: 3px 3px 4px green;
+  animation-duration: 3s;
+}
 .clearfix .parrafo-inicio {
   font-size: 1.1rem;
 }
@@ -50,6 +57,18 @@
   margin-top: 5px;
   font-size: 80px;
   line-height: 60px;
+}
+.clearfix .titulo-castrar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-shadow: 3px 3px 4px green;
+}
+.clearfix .titulo-maltrato {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  text-shadow: 3px 3px 4px green;
 }
 
 .btn-wsp {
@@ -137,7 +156,7 @@
 }
 
 .animate__animated.animate__rollIn {
-  --animate-duration: 2s;
+  --animate-duration: 3s;
 }
 
 .parrafo-nos {
@@ -171,7 +190,7 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-.g-col-6 .nos3 {
+.g-col-6 .nos4 {
   padding-top: 2.5rem;
   margin: 2.5rem;
   transition: 0.5s;
@@ -182,7 +201,7 @@
   box-shadow: 9px 9px 12px black;
 }
 .g-col-6 .fotonos:hover {
-  transform: scale(1.4);
+  transform: scale(1.25);
 }
 
 .titulo-adoptar {
@@ -246,6 +265,7 @@
   font-size: 2rem;
   text-decoration: underline;
   text-shadow: 3px 3px 4px green;
+  animation-duration: 6s;
 }
 
 .parrafocolaborar {
@@ -275,50 +295,4 @@
   margin: 1rem;
   justify-content: space-around;
   align-content: space-between;
-}
-
-@media (min-width: 700px) {
-  body {
-    padding: 0 4em;
-  }
-  .contact-wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-  .contact-wrapper > * {
-    padding: 2em;
-  }
-  .contact-info h4,
-  .contact-info ul,
-  .contact-info p {
-    text-align: left;
-  }
-}
-@media (max-width: 660px) {
-  .fotonos {
-    width: 100%;
-    justify-content: center;
-  }
-}
-@media (max-width: 360px) {
-  .logos {
-    font-size: 2rem;
-    padding-left: 0.5rem;
-  }
-  .info-contacto {
-    font-size: 0.75rem;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .btn-wsp {
-    width: 63px;
-    height: 63px;
-    line-height: 66px;
-  }
-}
-@media (max-width: 770px) {
-  .castrar {
-    width: 270px;
-    height: 203px;
-  }
 }/*# sourceMappingURL=estilo.css.map */
