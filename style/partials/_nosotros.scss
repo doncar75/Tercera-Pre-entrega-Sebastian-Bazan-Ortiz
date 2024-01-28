@@ -20,32 +20,30 @@
 }
 
 .g-col-6{
+    justify-content: space-evenly;
+    padding: 1.5rem;
     .nos1{
-        padding-top: 3rem;
-        margin: 3rem;
         transition: .5s;
         object-fit: cover;
+        width: 70%;
     }
 
     .nos2{
-        padding-top: 3.5rem;
-        margin: 3.5rem;
         transition: .5s;
         object-fit: cover;
+        width: 70%;
     }
 
     .nos3{
-        padding-top: 2.5rem;
-        margin: 2.5rem;
         transition: .5s;
         object-fit: cover;
+        width: 70%;
     }
 
     .nos4{
-        padding-top: 2.5rem;
-        margin: 2.5rem;
         transition: .5s;
         object-fit: cover;
+        width: 70%;
     }
 
     .fotonos{
@@ -53,7 +51,7 @@
     }
     
     .fotonos:hover{
-        transform: scale(1.25);
+        transform: scale(1.15);
     }
     
 }

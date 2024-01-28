@@ -96,8 +96,7 @@
 }
 .content .logos {
   text-align: center;
-  font-size: 3rem !important;
-  padding-left: 5rem;
+  font-size: 2.25rem;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
   text-shadow: 3px 3px 4px green;
@@ -131,11 +130,10 @@
   color: white;
   font-size: 1.4rem;
 }
-.content .contact-wrapper .info-contacto h4,
+.content .contact-wrapper .info-contacto h2,
 .content .contact-wrapper .info-contacto ul,
 .content .contact-wrapper .info-contacto p {
   text-align: center;
-  margin: 0 0 1rem 0;
 }
 .content .contact-wrapper .info-contacto ul {
   list-style: none;
@@ -159,7 +157,7 @@
   .contact-wrapper > * {
     padding: 2em;
   }
-  .contact-info h4,
+  .contact-info h2,
   .contact-info ul,
   .contact-info p {
     text-align: left;
@@ -186,39 +184,39 @@
   border-radius: 10%;
 }
 
+.g-col-6 {
+  justify-content: space-evenly;
+  padding: 1.5rem;
+}
 .g-col-6 .nos1 {
-  padding-top: 3rem;
-  margin: 3rem;
   transition: 0.5s;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 70%;
 }
 .g-col-6 .nos2 {
-  padding-top: 3.5rem;
-  margin: 3.5rem;
   transition: 0.5s;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 70%;
 }
 .g-col-6 .nos3 {
-  padding-top: 2.5rem;
-  margin: 2.5rem;
   transition: 0.5s;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 70%;
 }
 .g-col-6 .nos4 {
-  padding-top: 2.5rem;
-  margin: 2.5rem;
   transition: 0.5s;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 70%;
 }
 .g-col-6 .fotonos {
   box-shadow: 9px 9px 12px black;
 }
 .g-col-6 .fotonos:hover {
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
 
 .titulo-adoptar {
